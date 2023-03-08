@@ -13,6 +13,8 @@ We will follow these criteria in order to choose the best option:\
 
 >We are assuming that *alternative 1* is "deploying a server for the web and another one for the Elastic stack (VM)", *alternative 2* is "deploying both machines but run the services via containers" and *alternative 3* is "deploying the services directly via containers on the host machine".
 
+The chosen option is: **Alternative 2**
+
 | Alternative | Realistic | Easily reproducible | Easily maintained and updated |
 |-------------|-----------|---------------------|-------------------------------|
 | 1 | :white_check_mark: | :x: | :x: |
@@ -31,9 +33,9 @@ This alternative won't be easy to maitain and update because it will require the
 ### Alternative 2
 This alternative is realistic because several solutions found over the internet are deployed this way. The servers are running in different containers inside virtual machines.
 This alternative will be easy to reproduce because the main focus will be a functional and up-to-day OS which can run some kind of containerization.
-This alternative will be easy to maintain and update because the OS and the services can be maintained separately and will allow the .
+This alternative will be easy to maintain and update because the OS and the services can be maintained separately.
 
 ### Alternative 3
 This alternative is not realistic since deploying all services on the host machine is not how real solutions are implemented.
 This alternative will be easy to reproduce because the main focus will be a functional and up-to-day OS which can run some kind of containerization.
-This alternative will be easy to maintain and update because the OS and the services can be maintained separately and will allow the .
+This alternative will be easy to maintain and update because the OS and the services can be maintained separately.
